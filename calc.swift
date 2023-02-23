@@ -93,7 +93,7 @@ var continueW: String? = ""
 while continueW != "n" && continueW != "N" {
     mainCalc()
     print("Do you want to do an new operation? y/n")
-    // any char except "n" or "N" wont'n exit
+    // any char except "n" or "N" wont'n exit 
     continueW = readLine()
 }
 print("\r\rThank you for using the best calculator in the world")
